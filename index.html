@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Quintessential&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Architect</title>
+</head>
+<body>
+    <div class="spinner-container">
+        <div class="circles">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="container" id="home">
+        <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+            <span>Close</span>
+        </div>
+        <header class="header">
+            <div class="img-wrapper"><img src="images/bg.jpg"></div>
+            <div class="banner">
+                <h1>Architecture & Interior Design</h1>
+                <p>Interior design and interior architecture are both centred around the designing of interior spaces but have different approaches to their practice</p>
+                <button>Discover Now</button>
+            </div>
+        </header>
+
+        <section class="sidebar">
+            <ul class="menu">
+                <li class="menu-item"><a href="#home" class="menu-link" data-content="Home">Home</a></li>
+                <li class="menu-item"><a href="#about" class="menu-link" data-content="About Us">About Us</a></li>
+                <li class="menu-item"><a href="#team" class="menu-link" data-content="Team">Team</a></li>
+                <li class="menu-item"><a href="#pricing" class="menu-link" data-content="Pricing">Pricing</a></li>
+                <li class="menu-item"><a href="#contact" class="menu-link" data-content="Contact">Contact</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="#"> <i class="fab fa-facebook"></i></a>
+                <a href="#"> <i class="fab fa-instagram"></i></a>
+                <a href="#"> <i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+
+        <section class="about-us" id="about">
+            <div class="section-header">
+                <h1 class="section-heading">About Us</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="wrapper-services">
+                <div class="service">
+                    <div class="service-header">
+                        <i class="fas fa-pen-nib"></i>
+                        <h3>Interior</h3>
+                    </div>
+                    <p class="service-text">Interior design is the art of decorating, planning, and designing the interior of a space, such as a home. 
+                        It involves creating a visually appealing space that is also functional and meets the needs of the people who will use it. </p>
+                </div>
+                <div class="service">
+                    <div class="service-header">
+                        <i class="fas fa-paint-roller"></i>
+                        <h3>Exterior</h3>
+                    </div>
+                    <p class="service-text">Exterior design is the visual appearance of the outside of a building, vehicle, or other object. 
+                        It focuses on creating a visually appealing impression that matches the object's function.  </p>
+                </div>
+                <div class="service">
+                    <div class="service-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <p class="service-text">To communicate the design of a product or system. 
+                        It can be used for paper or electronic documents, or when speaking with someone about the design </p>
+                </div>
+                <div class="service">
+                    <div class="service-header">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Decoration</h3>
+                    </div>
+                    <p class="service-text">Interior design is the art of decorating, planning, and designing the interior of a space, such as a home. 
+                        It involves creating a visually appealing space that is also functional and meets the needs of the people who will use it. </p>
+                </div>
+                <div class="service">
+                    <div class="service-header">
+                        <i class="fas fa-ruler-combined"></i>
+                        <h3>Planning</h3>
+                    </div>
+                    <p class="service-text">The process that involves outlining and organizing a design approach for a project. 
+                        It can be used for digital products, projects, or other endeavors.  </p>
+                </div>
+                <div class="service">
+                    <div class="service-header">
+                        <i class="far fa-building"></i>
+                        <h3>Execution</h3>
+                    </div>
+                    <p class="service-text">To outline the work that needs to be done to complete a design. 
+                        It may also include details about the design's architecture, components, interfaces, and data. 
+                    </p>
+                </div>
+                <div class="about-us-img-wrapper">
+                    <img src="images/house.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="team" id="team">
+            <div class="section-header">
+                <h1 class="section-heading">Our Team</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="cards-wrapper">
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                        <img src="/images/person-1.jpg" alt="CEO">
+                    </div>
+                    <div class="card-info">
+                        <h2>John Smith</h2>
+                        <h3>CEO</h3>
+                        <p>"The head of the executive team and manages the day to day operations of the organisation, 
+                        its people and resources"</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                        <img src="/images/person-2.jpg" alt="Web Developer">
+                    </div>
+                    <div class="card-info">
+                        <h2>Leslie Messin</h2>
+                        <h3>Web Developer</h3>
+                        <p>"responsible for the design and construction of websites and that sites meet user expectations"</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="card" data-tilt>
+                    <div class="card-img-wrapper">
+                        <img src="/images/person-3.jpg" alt="Architect">
+                    </div>
+                    <div class="card-info">
+                        <h2>Julie Bridget</h2>
+                        <h3>Architect</h3>
+                        <p>"responsible to design and plan buildings and other structures"</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-wrapper">
+                <div class="contact-left-side"></div>
+                <div class="contact-right-side">
+                    <h1 class="contact-heading">Contact</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field">
+                            <label class="input-label">Full Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" class="field">
+                            <label class="input-label">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field"></textarea>
+                            <label class="message">Message</label>
+                        </div>
+                        <input type="submit" class="submit-btn" value="submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="copyright">Copyright &copy; , CodeAndCreate - All rights Reserved</p>
+                <div class="icons">
+                    <a href="#"> <i class="fab fa-facebook"></i></a>
+                    <a href="#"> <i class="fab fa-instagram"></i></a>
+                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="tilt.js"></script>
+</body>
+</html>
