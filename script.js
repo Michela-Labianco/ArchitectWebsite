@@ -1,9 +1,3 @@
-// document.getElementsByTagName('a')
-// .forEach(control => { //forEach takes one argument
-//     control.addEventListener('click', (e) => { //e = event object
-//         e.preventDefault()
-//     })
-// })
 
 document.querySelector('.hamburger-menu').addEventListener('click', () => {
     document.querySelector('.container').classList.toggle('change');
